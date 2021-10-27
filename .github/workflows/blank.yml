@@ -38,6 +38,7 @@ jobs:
       - name: Run pip
         run: |
           pip install scikit-learn
+          pip install pandas
          
       - name: Run python code
         run: |
